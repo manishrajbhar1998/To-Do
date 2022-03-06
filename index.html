@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h2 id="heading" class="abc">Quiz Generator Age</h2>
+            <form id="search-note">
+                <input type="text" placeholder="Search Quiz..." id="search">
+            </form>
+        </header>
+        <div class="note-list">
+            <ul id="list">
+                <li class="list-item">
+                    <p class="text">First Question</p>
+                    <p><i class="fas fa-pen-square"></i><i class="fas fa-times"></i></p>
+                    <input type="text" class="edit-note" value="">
+                </li>
+                <li class="list-item">
+                    <p class="text">Second Question</p>
+                    <p><i class="fas fa-pen-square"></i><i class="fas fa-times"></i></p>
+                    <input type="text" class="edit-note" value="">
+                </li>
+                <li class="list-item">
+                    <p class="text">Third Question</p>
+                    <p><i class="fas fa-pen-square"></i><i class="fas fa-times"></i></p>
+                    <input type="text" class="edit-note" value="">
+                </li>
+            </ul>
+        </div>
+        <div id="hide-list">
+            <label for="hide">Hide Notes</label>
+            <input type="checkbox" id="hide" checked>
+        </div>
+        <div id="add-notes">
+            <form action="" id="add">
+                <input type="text" placeholder="Add a Question.." id="add-input">
+                <button><input type="submit" value="Add...." id="add-btn"></button>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
